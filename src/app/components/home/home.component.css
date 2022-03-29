@@ -1,0 +1,41 @@
+.area{
+  /* background-color: aqua; */
+    height: auto;
+    /* height: 100vh; */
+  /* height: auto; */
+  padding-top: 5%;
+  padding-left: 15%;
+}
+.h1style{
+  color: white;
+  font-size: 4em;
+  /* padding: 0em; */
+  margin: 0em;
+
+}
+.h2style{
+  color: gray;
+  font-size: 2.5em;
+  /* padding: 0em; */
+  margin: 0em;
+}
+
+.h3style{
+  color: gray;
+  margin: 0em;
+}
+
+.imgStyle{
+  width: 15em;
+  height: auto;
+  border-radius: 2em;
+  border: 0.3rem solid;
+  border-color: aquamarine;
+  /* border-color: aquamarine; */
+  /* box-shadow: 2em; */
+
+}
+.imgDivStyle{
+  /* padding-left: 10em; */
+  /* border-radius: 5em; */
+}

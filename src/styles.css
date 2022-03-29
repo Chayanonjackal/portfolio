@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+.bgColor{
+  background-color: #112240;;
+  /* height: 100vh; */
+  /* height: auto; */
+  /* padding-top: 5%; */
+  /* padding-left: 15%; */
+  font-family: "NTR-Regular";
+}
+
+@font-face {
+  font-family: "NTR-Regular";
+  src: local("NTR-Regular"), url(./assets/fonts/NTR-Regular.ttf) format("truetype");
+}
