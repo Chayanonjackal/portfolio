@@ -12,6 +12,19 @@
   border-radius: 0.25em;
   border: solid;
   border-color: aqua;
+  /* height: 20em; */
+  /* height: 100em; */
+}
+:host ::ng-deep .p-card-content{
+  /* height: fit-content; */
+  /* height: 1em; */
+}
+
+.styleLink{
+  color: aqua;
+  font-weight: bold;
+  text-decoration-line: blink;
+  /* outline-style: dashed; */
 }
 
 /* :host ::ng-deep .p-card .p-card-body {
@@ -53,4 +66,15 @@
 .imgDivStyle{
   /* padding-left: 10em; */
   /* border-radius: 5em; */
+}
+
+.rowPosition{
+    display: flex;
+    column-gap: 1em;
+}
+
+.detailContent{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  /* color: red; */
 }
