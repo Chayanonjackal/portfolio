@@ -6,6 +6,21 @@
   padding-top: 5%;
   padding-left: 15%;
 }
+
+:host ::ng-deep .p-card-body {
+  background: #112240;
+  border-radius: 0.25em;
+  border: solid;
+  border-color: aqua;
+}
+
+/* :host ::ng-deep .p-card .p-card-body {
+  padding: 1.25rem;
+  background: aquamarine;
+} */
+
+
+
 .h1style{
   color: white;
   font-size: 4em;

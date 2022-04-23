@@ -10,6 +10,7 @@ import { ExperienceComponent } from './components/experience/experience.componen
 import {TabViewModule} from 'primeng/tabview';
 import {PanelModule} from 'primeng/panel';
 import { ProjectComponent } from './components/project/project.component';
+import {CardModule} from 'primeng/card';
 
 
 @NgModule({
@@ -25,7 +26,8 @@ import { ProjectComponent } from './components/project/project.component';
     AppRoutingModule,
     ButtonModule,
     TabViewModule,
-    PanelModule
+    PanelModule,
+    CardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
